@@ -48,15 +48,13 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W           &kp E         &kp R                   &kp T                                        &kp Y                         &kp U  &lt 5 I    &kp O    &kp P
+&kp Q      &kp W           &kp E         &kp R                   &kp T                                        &kp Y                         &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S           &kp D         &lt 3 F                 &kp G                       &kp MINUS        &kp H                         &kp J  &kp K      &kp L    &kp ENTER
-&kp Z      &kp X           &kp C         &kp V                   &kp B        &lt 4 COLON    &kp SEMICOLON    &kp N                         &kp M  &kp COMMA  &kp DOT  &kp LG(RIGHT_SHIFT)
+&kp Z      &kp X           &kp C         &kp V                   &kp B        &lt 4 COLON    &kp SEMICOLON    &kp N                         &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
 &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mt LEFT_COMMAND LANG2  &lt 2 SPACE  &lt 1 SPACE    &lt 3 LG(SPACE)  &mt RIGHT_COMMAND LANGUAGE_1                             &kp ENTER
             >;
 
-            sensor-bindings =
-                <&scroll_up_down>,
-                <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         layer_1 {
