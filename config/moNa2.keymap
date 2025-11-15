@@ -81,10 +81,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                     &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans    &trans  &trans                          &trans
+&kp GRAVE       &trans          &trans        &trans                       &trans                                     &trans                        &kp MINUS         &kp EQUAL          &trans         &trans
+&trans          &trans          &trans        &trans                       &trans                       &bt BT_SEL 0  &trans                        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&kp LEFT_SHIFT  &trans          &trans        &trans                       &trans     &bt BT_CLR_ALL    &bt BT_SEL 1  &kp SEMICOLON                 &kp SQT           &trans             &trans         &kp SLASH
+&kp LCTRL       &kp LEFT_SHIFT  &kp LEFT_ALT  &mt LEFT_COMMAND LANGUAGE_2  &kp SPACE  &kp SPACE         &trans        &mt RIGHT_COMMAND LANGUAGE_1                                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
