@@ -70,7 +70,7 @@
 
         layer_2 {
             bindings = <
-&kp ESCAPE      &kp F1                    &kp F2        &kp F3            &kp PLUS                    &kp F10            &kp F11    &mkp RCLK  &kp F12  &kp RIGHT_PARENTHESIS
+&kp ESCAPE      &kp F1                    &kp F2        &kp F3            &kp PLUS                    &kp F10            &kp F11    &mkp RCLK  &kp F12  &kp ESCAPE
 &kp TAB         &kp LS(LG(LC(NUMBER_4)))  &trans        &trans            &trans              &trans  &trans             &mkp LCLK  &trans     &trans   &trans
 &kp LEFT_SHIFT  &trans                    &trans        &trans            &trans    &trans    &trans  &trans             &trans     &trans     &trans   &trans
 &kp LCTRL       &kp LEFT_SHIFT            &kp LEFT_ALT  &kp LEFT_COMMAND  &trans    &trans    &trans  &kp RIGHT_COMMAND                                 &trans
